@@ -8,6 +8,9 @@ import { SearchContext } from "@/context/SearchContextProvider";
 import Link from "next/link";
 import { Pacifico } from "next/font/google";
 import { usePathname } from "next/navigation";
+import { FaIcons, FaPaperPlane } from "react-icons/fa6";
+import { RequestIcon } from "./RequestIcon";
+
 
 const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 
@@ -62,6 +65,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           </div>
 
           <div className="flex flex-1 items-center justify-end gap-4">
+          <RequestIcon />
             {!hideSearch && (
               <button
                 onClick={handleSearchClick}
