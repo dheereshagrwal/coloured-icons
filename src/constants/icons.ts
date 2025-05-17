@@ -5160,7 +5160,7 @@ const icons = [
       "sass",
       "sass-wordmark"
     ],
-    "url": "sass.com"
+    "url": "sass-lang.com"
   },
   {
     "name": "Scala",
