@@ -4061,7 +4061,7 @@ const icons = [
       "nixos",
       "nixos-horizontal"
     ],
-    "url": "nixos.com"
+    "url": "nixos.org"
   },
   {
     "name": "Nodejs",
